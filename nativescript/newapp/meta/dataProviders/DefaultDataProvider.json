@@ -1,0 +1,77 @@
+{
+    "authentication": {
+        "mobile": {
+            "authenticationType": "kinvey-auth",
+            "settings": {}
+        },
+        "web": {
+            "authenticationType": "kinvey-auth",
+            "settings": {}
+        }
+    },
+    "children": [
+        {
+            "clientSideProcessing": false,
+            "fields": [
+                {
+                    "label": "Id",
+                    "name": "_id",
+                    "required": false,
+                    "type": "string"
+                },
+                {
+                    "excluded": true,
+                    "fields": [
+                        {
+                            "label": "Creator",
+                            "name": "creator",
+                            "required": false,
+                            "type": "string"
+                        }
+                    ],
+                    "label": "Acl",
+                    "name": "_acl",
+                    "required": false,
+                    "type": "object"
+                },
+                {
+                    "excluded": true,
+                    "fields": [
+                        {
+                            "label": "Lmt",
+                            "name": "lmt",
+                            "required": false,
+                            "type": "date"
+                        },
+                        {
+                            "label": "Ect",
+                            "name": "ect",
+                            "required": false,
+                            "type": "date"
+                        }
+                    ],
+                    "label": "Kmd",
+                    "name": "_kmd",
+                    "required": false,
+                    "type": "object"
+                }
+            ],
+            "name": "mysql"
+        }
+    ],
+    "kinveyApp": {
+        "id": "9681dbf029fd405f9af0ecd25f85b0c9",
+        "name": "newapp"
+    },
+    "kinveyAppEnvironment": {
+        "appSecret": "c95c60fb211c44fb897a1a646d0ecfc2",
+        "id": "kid_B1ii_zsjr",
+        "masterSecret": "04d3d668b9f34d0691fd575c571eabf0",
+        "name": "Development"
+    },
+    "name": "DefaultDataProvider",
+    "schemaVersion": "1.0",
+    "serviceUri": "https://baas.kinvey.com",
+    "type": "kinvey-data-provider",
+    "uniqueID": "5bcebb08-fb03-4bec-8d79-237aa2448259"
+}

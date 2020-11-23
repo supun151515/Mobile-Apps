@@ -1,0 +1,18 @@
+{
+    "authorization": {
+        "allowedRoles": []
+    },
+    "children": [],
+    "description": "",
+    "moduleType": "default",
+    "name": "Main",
+    "order": 1,
+    "schemaVersion": "1.0",
+    "thumbnail": {
+        "background": "#00a2e8",
+        "color": "#ffffff",
+        "icon": "fa-area-chart"
+    },
+    "type": "module",
+    "uniqueID": "fec5ae70-ae12-4233-b936-a814ebea8c13"
+}

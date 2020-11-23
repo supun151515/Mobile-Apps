@@ -1,0 +1,363 @@
+{
+    "annotations": {
+        "dataServices": {}
+    },
+    "authorization": {
+        "allowedRoles": []
+    },
+    "children": [
+        {
+            "annotations": {
+                "id": "componentIdentifier"
+            },
+            "appearanceStyles": {
+                "backgroundColor": null,
+                "color": null
+            },
+            "authorization": {
+                "allowedRoles": []
+            },
+            "boxStyles": {
+                "margin": "",
+                "padding": "",
+                "size": {
+                    "height": "",
+                    "width": ""
+                }
+            },
+            "children": [
+                {
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "authorization": {
+                        "allowedRoles": []
+                    },
+                    "boxStyles": {
+                        "margin": "",
+                        "padding": "",
+                        "size": {
+                            "height": "",
+                            "width": ""
+                        }
+                    },
+                    "breakpoints": {
+                        "fillSpace": false,
+                        "fitContent": false,
+                        "sm": 3
+                    },
+                    "children": [],
+                    "classList": "",
+                    "customProperties": [],
+                    "hidden": {
+                        "lg": false,
+                        "md": false,
+                        "sm": false,
+                        "xl": false,
+                        "xs": false
+                    },
+                    "id": "col0",
+                    "name": "col",
+                    "schemaVersion": "1.0",
+                    "type": "col",
+                    "uniqueID": "e0ea248b-1c20-415f-b3a8-fdaf2d6b2b66"
+                },
+                {
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "authorization": {
+                        "allowedRoles": []
+                    },
+                    "boxStyles": {
+                        "margin": "",
+                        "padding": "",
+                        "size": {
+                            "height": "",
+                            "width": ""
+                        }
+                    },
+                    "breakpoints": {
+                        "fillSpace": false,
+                        "fitContent": false,
+                        "sm": 6
+                    },
+                    "children": [
+                        {
+                            "annotationRefs": {
+                                "forAttribute": {
+                                    "kind": "componentIdentifier"
+                                }
+                            },
+                            "annotations": {
+                                "id": "componentIdentifier"
+                            },
+                            "appearanceStyles": {
+                                "backgroundColor": null,
+                                "color": null
+                            },
+                            "boxStyles": {
+                                "margin": "",
+                                "padding": "",
+                                "size": {
+                                    "height": "",
+                                    "width": ""
+                                }
+                            },
+                            "classList": "",
+                            "customProperties": [],
+                            "forAttribute": "",
+                            "id": "label0",
+                            "name": "label",
+                            "schemaVersion": "1.0",
+                            "text": "Welcome to Kinvey Studio!",
+                            "type": "label",
+                            "uniqueID": "ce827585-9adf-4ae2-8b42-26eff10207a0"
+                        }
+                    ],
+                    "classList": "",
+                    "customProperties": [],
+                    "hidden": {
+                        "lg": false,
+                        "md": false,
+                        "sm": false,
+                        "xl": false,
+                        "xs": false
+                    },
+                    "id": "col1",
+                    "name": "col",
+                    "schemaVersion": "1.0",
+                    "type": "col",
+                    "uniqueID": "b6f0f9ff-7d50-4a04-b66e-e73e9d31d33d"
+                },
+                {
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "authorization": {
+                        "allowedRoles": []
+                    },
+                    "boxStyles": {
+                        "margin": "",
+                        "padding": "",
+                        "size": {
+                            "height": "",
+                            "width": ""
+                        }
+                    },
+                    "breakpoints": {
+                        "fillSpace": false,
+                        "fitContent": false,
+                        "sm": 3
+                    },
+                    "children": [],
+                    "classList": "",
+                    "customProperties": [],
+                    "hidden": {
+                        "lg": false,
+                        "md": false,
+                        "sm": false,
+                        "xl": false,
+                        "xs": false
+                    },
+                    "id": "col2",
+                    "name": "col",
+                    "schemaVersion": "1.0",
+                    "type": "col",
+                    "uniqueID": "3b2b8cb4-4f24-41d1-a09d-3375eeda15c3"
+                }
+            ],
+            "classList": "",
+            "customProperties": [],
+            "id": "row0",
+            "name": "row",
+            "schemaVersion": "1.0",
+            "type": "row",
+            "uniqueID": "6ae7f3b6-c314-4ea3-b8e5-8226a72f99c8"
+        },
+        {
+            "annotations": {
+                "id": "componentIdentifier"
+            },
+            "appearanceStyles": {
+                "backgroundColor": null,
+                "color": null
+            },
+            "authorization": {
+                "allowedRoles": []
+            },
+            "boxStyles": {
+                "margin": "",
+                "padding": "",
+                "size": {
+                    "height": "",
+                    "width": ""
+                }
+            },
+            "children": [
+                {
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "authorization": {
+                        "allowedRoles": []
+                    },
+                    "boxStyles": {
+                        "margin": "",
+                        "padding": "",
+                        "size": {
+                            "height": "",
+                            "width": ""
+                        }
+                    },
+                    "breakpoints": {
+                        "fillSpace": false,
+                        "fitContent": false,
+                        "sm": 3
+                    },
+                    "children": [],
+                    "classList": "",
+                    "customProperties": [],
+                    "hidden": {
+                        "lg": false,
+                        "md": false,
+                        "sm": false,
+                        "xl": false,
+                        "xs": false
+                    },
+                    "id": "col3",
+                    "name": "col",
+                    "schemaVersion": "1.0",
+                    "type": "col",
+                    "uniqueID": "1dfac497-a1f4-4d16-9a6d-dd3677ed9716"
+                },
+                {
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "authorization": {
+                        "allowedRoles": []
+                    },
+                    "boxStyles": {
+                        "margin": "",
+                        "padding": "",
+                        "size": {
+                            "height": "",
+                            "width": ""
+                        }
+                    },
+                    "breakpoints": {
+                        "fillSpace": false,
+                        "fitContent": false,
+                        "sm": 6
+                    },
+                    "children": [
+                        {
+                            "alt": "",
+                            "annotations": {
+                                "id": "componentIdentifier"
+                            },
+                            "appearanceStyles": {
+                                "backgroundColor": null,
+                                "color": null
+                            },
+                            "boxStyles": {
+                                "margin": "",
+                                "padding": "",
+                                "size": {
+                                    "height": "",
+                                    "width": ""
+                                }
+                            },
+                            "classList": "",
+                            "customProperties": [],
+                            "formControlName": "",
+                            "id": "image0",
+                            "name": "image",
+                            "schemaVersion": "1.0",
+                            "src": "logo_default.png",
+                            "type": "image",
+                            "uniqueID": "b573f308-3711-4547-8560-1e99240e5565"
+                        }
+                    ],
+                    "classList": "",
+                    "customProperties": [],
+                    "hidden": {
+                        "lg": false,
+                        "md": false,
+                        "sm": false,
+                        "xl": false,
+                        "xs": false
+                    },
+                    "id": "col4",
+                    "name": "col",
+                    "schemaVersion": "1.0",
+                    "type": "col",
+                    "uniqueID": "d1dbe043-dc92-4e01-a0f2-35af16687ebe"
+                },
+                {
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "authorization": {
+                        "allowedRoles": []
+                    },
+                    "boxStyles": {
+                        "margin": "",
+                        "padding": "",
+                        "size": {
+                            "height": "",
+                            "width": ""
+                        }
+                    },
+                    "breakpoints": {
+                        "fillSpace": false,
+                        "fitContent": false,
+                        "sm": 3
+                    },
+                    "children": [],
+                    "classList": "",
+                    "customProperties": [],
+                    "hidden": {
+                        "lg": false,
+                        "md": false,
+                        "sm": false,
+                        "xl": false,
+                        "xs": false
+                    },
+                    "id": "col5",
+                    "name": "col",
+                    "schemaVersion": "1.0",
+                    "type": "col",
+                    "uniqueID": "08730698-30fa-446f-9349-f96992a8e1f1"
+                }
+            ],
+            "classList": "",
+            "customProperties": [],
+            "id": "row1",
+            "name": "row",
+            "schemaVersion": "1.0",
+            "type": "row",
+            "uniqueID": "22c3c576-4074-411e-9623-7d844830d563"
+        }
+    ],
+    "classList": "",
+    "customSections": {
+        "top": "top-section.component.html"
+    },
+    "dataServices": [],
+    "hidden": false,
+    "name": "home",
+    "platform": "web",
+    "requiresAuth": true,
+    "schemaVersion": "1.0",
+    "type": "view",
+    "uniqueID": "250e8111-6168-4145-96d2-2258003fb823",
+    "viewType": "blank"
+}

@@ -1,0 +1,62 @@
+{
+    "authorization": {
+        "roles": []
+    },
+    "build": {
+        "debug": {
+            "baseHref": "/"
+        },
+        "release": {
+            "aot": true,
+            "baseHref": "/"
+        }
+    },
+    "children": [],
+    "defaultLangaugeCulture": "en-US",
+    "defaultLanguageLabel": "English",
+    "description": "",
+    "enablePwaSupport": false,
+    "layout": {},
+    "mobileNavigation": [
+        {
+            "module": "Main",
+            "type": "drawer",
+            "view": "Customers"
+        }
+    ],
+    "mobileOfflineSupport": false,
+    "mobileTheme": "light",
+    "name": "newapp",
+    "ripple": false,
+    "schemaVersion": "1.10.0",
+    "startupViewInfo": {},
+    "targetFramework": "Angular",
+    "targetType": "SharedWebAndMobile",
+    "theme": "metro",
+    "type": "app",
+    "uniqueID": "891129c4-6421-4486-a1ee-68678886dc66",
+    "webNavigation": [
+        {
+            "moduleRouteName": "",
+            "name": "home",
+            "routeName": "",
+            "type": "view",
+            "uniqueID": "250e8111-6168-4145-96d2-2258003fb823"
+        },
+        {
+            "children": [
+                {
+                    "moduleRouteName": "Main",
+                    "name": "Customers",
+                    "routeName": "Customers",
+                    "type": "view",
+                    "uniqueID": "6288f1bd-d82a-4786-80be-7c78ae2b9b82"
+                }
+            ],
+            "displayName": "Main",
+            "routeName": "Main",
+            "type": "module"
+        }
+    ],
+    "webOfflineSupport": false
+}

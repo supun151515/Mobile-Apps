@@ -1,0 +1,139 @@
+{
+    "authorization": {
+        "allowedRoles": []
+    },
+    "classList": "",
+    "collection": "mysql",
+    "columns": [
+        {
+            "componentOptions": {
+                "annotations": {
+                    "id": "componentIdentifier"
+                },
+                "appearanceStyles": {
+                    "backgroundColor": null,
+                    "color": null
+                },
+                "boxStyles": {
+                    "margin": "",
+                    "padding": "",
+                    "size": {
+                        "height": "",
+                        "width": ""
+                    }
+                },
+                "classList": "",
+                "customProperties": [],
+                "debounce": 0,
+                "defaultValue": "",
+                "emailValidator": {
+                    "message": "${fieldName} must contain a valid email address."
+                },
+                "events": {
+                    "onChange": ""
+                },
+                "formControlName": "",
+                "id": "ctl0",
+                "maxLengthValidator": {
+                    "message": "${fieldName} cannot be more than ${requiredLength} characters long."
+                },
+                "maxValidator": {
+                    "message": "${fieldName} must be ${max} or lower."
+                },
+                "minLengthValidator": {
+                    "message": "${fieldName} must be longer than ${requiredLength} characters long."
+                },
+                "minValidator": {
+                    "message": "${fieldName} must be ${min} or higher."
+                },
+                "model": "",
+                "name": "_id",
+                "patternValidator": {
+                    "message": "${fieldName} must match the following pattern: ${requiredPattern}."
+                },
+                "placeholder": "",
+                "requiredValidator": {
+                    "message": "${fieldName} is required."
+                },
+                "schemaVersion": "1.0",
+                "title": "Id",
+                "type": "text-box",
+                "uniqueID": "617bb751-2207-47c0-b2d9-3622c35442b7",
+                "urlValidator": {
+                    "message": "${fieldName} must contain a valid url address."
+                }
+            },
+            "editable": true,
+            "encoded": true,
+            "field": "_id",
+            "filterable": true,
+            "format": "",
+            "sortable": true,
+            "title": "Id"
+        }
+    ],
+    "customSections": {
+        "bottom": "bottom-section.component.html",
+        "middle": "middle-section.component.html",
+        "top": "top-section.component.html"
+    },
+    "dataProvider": "DefaultDataProvider",
+    "editOptions": {
+        "allowDelete": true,
+        "allowEdit": true,
+        "allowInsert": true,
+        "batch": true,
+        "rowButtons": {
+            "canceledit": {
+                "content": "Cancel"
+            },
+            "destroy": {
+                "content": "Delete",
+                "icon": "k-icon k-i-close"
+            },
+            "edit": {
+                "content": "Edit",
+                "icon": "k-icon k-i-edit"
+            },
+            "update": {
+                "content": "Update"
+            }
+        },
+        "toolbarButtons": {
+            "cancel": {
+                "content": "Cancel changes",
+                "icon": "k-icon k-i-cancel"
+            },
+            "create": {
+                "content": "New",
+                "icon": "k-icon k-i-add"
+            },
+            "save": {
+                "content": "Save changes",
+                "icon": "k-icon k-i-checkmark"
+            }
+        }
+    },
+    "editable": "ReadOnly",
+    "events": {
+        "onRowCreate": "",
+        "onRowDelete": "",
+        "onRowSelect": "onRowSelect",
+        "onRowUpdate": ""
+    },
+    "filterable": false,
+    "groupable": false,
+    "hidden": false,
+    "name": "Customers",
+    "pageSize": 20,
+    "platform": "web",
+    "reorderable": false,
+    "requiresAuth": true,
+    "resizable": false,
+    "schemaVersion": "1.0",
+    "sortable": false,
+    "title": "<Title>",
+    "type": "view",
+    "uniqueID": "6288f1bd-d82a-4786-80be-7c78ae2b9b82",
+    "viewType": "data-grid"
+}

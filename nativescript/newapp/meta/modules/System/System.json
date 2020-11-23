@@ -1,0 +1,17 @@
+{
+    "authorization": {
+        "allowedRoles": []
+    },
+    "description": "",
+    "moduleType": "system",
+    "name": "System",
+    "order": 0,
+    "schemaVersion": "1.0",
+    "thumbnail": {
+        "background": "#b2b2b2",
+        "color": "#ffffff",
+        "icon": "fa-cubes"
+    },
+    "type": "module",
+    "uniqueID": "d7caadf7-e1be-4725-8215-d044b6346e77"
+}

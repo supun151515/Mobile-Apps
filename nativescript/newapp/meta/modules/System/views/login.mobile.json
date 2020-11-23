@@ -1,0 +1,20 @@
+{
+    "authorization": {
+        "allowedRoles": []
+    },
+    "forgotPasswordLabel": "Forgot your password?",
+    "loginLabel": "Log in",
+    "logo": "logo_default_login.png",
+    "micButtonLabel": "External Login",
+    "name": "login",
+    "passwordLabel": "Password",
+    "platform": "mobile",
+    "registerLabel": "Register",
+    "requiresAuth": true,
+    "schemaVersion": "1.0",
+    "title": "<Title>",
+    "type": "mobile-login",
+    "uniqueID": "5fd15bf4-3161-483d-92fc-2291509a7381",
+    "usernameLabel": "Username",
+    "viewType": "mobile-login"
+}
