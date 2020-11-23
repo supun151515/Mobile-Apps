@@ -1,0 +1,12 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<ion-input name="username" type="text" [(ngModel)]="postData.username"></ion-input>
+<ion-input name="password" type="password" [(ngModel)]="postData.password"></ion-input>
+<ion-button expand="block" share="round" color="success" (click)="loginAction()">Login</ion-button>
+
+</ion-content>
