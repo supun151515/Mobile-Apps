@@ -1,0 +1,114 @@
+{
+  "language": {
+    "label": "English",
+    "culture": "en-US",
+    "order": 0
+  },
+  "kendo": {
+    "calendar": {
+      "today": "Today"
+    },
+    "datepicker": {
+      "today": "Today",
+      "toggle": "Toggle calendar"
+    },
+    "grid": {
+      "groupPanelEmpty": "Drag a column header and drop it here to group by that column",
+      "noRecords": "No records available.",
+      "pagerFirstPage": "Go to the first page",
+      "pagerPreviousPage": "Go to the previous page",
+      "pagerNextPage": "Go to the next page",
+      "pagerLastPage": "Go to the last page",
+      "pagerPage": "Page",
+      "pagerOf": "of",
+      "pagerItems": "items",
+      "pagerItemsPerPage": "items per page",
+      "filterEqOperator": "Is equal to",
+      "filterNotEqOperator": "Is not equal to",
+      "filterIsNullOperator": "Is null",
+      "filterIsNotNullOperator": "Is not null",
+      "filterIsEmptyOperator": "Is empty",
+      "filterIsNotEmptyOperator": "Is not empty",
+      "filterStartsWithOperator": "Starts with",
+      "filterContainsOperator": "Contains",
+      "filterNotContainsOperator": "Does not contain",
+      "filterEndsWithOperator": "Ends with",
+      "filterGteOperator": "Is greater than or equal to",
+      "filterGtOperator": "Is greater than",
+      "filterLteOperator": "Is less than or equal to",
+      "filterLtOperator": "Is less than",
+      "filterIsTrue": "is true",
+      "filterIsFalse": "is false",
+      "filterBooleanAll": "(All)",
+      "filterAfterOrEqualOperator": "Is after or equal to",
+      "filterAfterOperator": "Is after",
+      "filterBeforeOperator": "Is before",
+      "filterBeforeOrEqualOperator": "Is before or equal to",
+      "filterFilterButton": "Filter",
+      "filterClearButton": "Clear",
+      "filterAndLogic": "And",
+      "filterOrLogic": "Or"
+    },
+    "slider": {
+      "increment": "Increase value",
+      "decrement": "Decrease value"
+    },
+    "timepicker": {
+      "accept": "Set",
+      "acceptLabel": "Set",
+      "cancel": "Cancel",
+      "cancelLabel": "Cancel",
+      "now": "Now",
+      "nowLabel": "Now",
+      "toggle": "Toggle time list"
+    }
+  },
+  "modules": {
+    "Main": {
+      "views": {
+        "Customers": {
+          "label": "Customers",
+          "title": "<Title>",
+          "columns": {
+            "_id": "Id"
+          },
+          "editMessages": {
+            "cancel": "Cancel changes",
+            "create": "New",
+            "save": "Save changes",
+            "canceledit": "Cancel",
+            "destroy": "Delete",
+            "edit": "Edit",
+            "update": "Update"
+          },
+          "components": {
+            "ctl0": {
+              "placeholder": ""
+            }
+          }
+        }
+      }
+    },
+    "System": {
+      "views": {
+        "app-layout": {
+          "components": {}
+        },
+        "home": {
+          "label": "home",
+          "components": {
+            "label0": {
+              "text": "Welcome to Kinvey Studio!"
+            }
+          }
+        },
+        "login": {
+          "label": "login"
+        },
+        "register": {
+          "label": "register"
+        }
+      }
+    }
+  }
+}
