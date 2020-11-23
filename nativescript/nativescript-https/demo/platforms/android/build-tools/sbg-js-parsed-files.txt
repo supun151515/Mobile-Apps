@@ -1,0 +1,4 @@
+D:\MyData\nativescript\nativescript-https\demo\platforms\android\app\src\main\assets\app\bundle.js
+D:\MyData\nativescript\nativescript-https\demo\platforms\android\app\src\main\assets\app\runtime.js
+D:\MyData\nativescript\nativescript-https\demo\platforms\android\app\src\main\assets\app\tns-java-classes.js
+D:\MyData\nativescript\nativescript-https\demo\platforms\android\app\src\main\assets\app\vendor.js

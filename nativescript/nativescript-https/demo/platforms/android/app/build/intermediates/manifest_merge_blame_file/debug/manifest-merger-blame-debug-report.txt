@@ -1,0 +1,85 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.nativescript.plugindemo.https"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->D:\MyData\nativescript\nativescript-https\demo\platforms\android\app\src\main\AndroidManifest.xml:13:2-15:44
+8        android:minSdkVersion="17"
+8-->D:\MyData\nativescript\nativescript-https\demo\platforms\android\app\src\main\AndroidManifest.xml:14:3-29
+9        android:targetSdkVersion="28" />
+9-->D:\MyData\nativescript\nativescript-https\demo\platforms\android\app\src\main\AndroidManifest.xml:15:3-42
+10
+11    <supports-screens
+11-->D:\MyData\nativescript\nativescript-https\demo\platforms\android\app\src\main\AndroidManifest.xml:7:2-11:33
+12        android:largeScreens="true"
+12-->D:\MyData\nativescript\nativescript-https\demo\platforms\android\app\src\main\AndroidManifest.xml:10:3-30
+13        android:normalScreens="true"
+13-->D:\MyData\nativescript\nativescript-https\demo\platforms\android\app\src\main\AndroidManifest.xml:9:3-31
+14        android:smallScreens="true"
+14-->D:\MyData\nativescript\nativescript-https\demo\platforms\android\app\src\main\AndroidManifest.xml:8:3-30
+15        android:xlargeScreens="true" />
+15-->D:\MyData\nativescript\nativescript-https\demo\platforms\android\app\src\main\AndroidManifest.xml:11:3-31
+16
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->D:\MyData\nativescript\nativescript-https\demo\platforms\android\app\src\main\AndroidManifest.xml:17:2-76
+17-->D:\MyData\nativescript\nativescript-https\demo\platforms\android\app\src\main\AndroidManifest.xml:17:19-74
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->D:\MyData\nativescript\nativescript-https\demo\platforms\android\app\src\main\AndroidManifest.xml:18:2-77
+18-->D:\MyData\nativescript\nativescript-https\demo\platforms\android\app\src\main\AndroidManifest.xml:18:19-75
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->D:\MyData\nativescript\nativescript-https\demo\platforms\android\app\src\main\AndroidManifest.xml:19:2-63
+19-->D:\MyData\nativescript\nativescript-https\demo\platforms\android\app\src\main\AndroidManifest.xml:19:19-61
+20
+21    <application
+21-->D:\MyData\nativescript\nativescript-https\demo\platforms\android\app\src\main\AndroidManifest.xml:21:2-42:16
+22        android:name="com.tns.NativeScriptApplication"
+22-->D:\MyData\nativescript\nativescript-https\demo\platforms\android\app\src\main\AndroidManifest.xml:22:3-49
+23        android:allowBackup="true"
+23-->D:\MyData\nativescript\nativescript-https\demo\platforms\android\app\src\main\AndroidManifest.xml:23:3-29
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.0.1] C:\Users\supun\.gradle\caches\transforms-2\files-2.1\0ce66f28f15d428e7cb22ee7b459b6ef\core-1.0.1\AndroidManifest.xml:22:18-86
+25        android:debuggable="true"
+26        android:icon="@drawable/icon"
+26-->D:\MyData\nativescript\nativescript-https\demo\platforms\android\app\src\main\AndroidManifest.xml:24:3-32
+27        android:label="@string/app_name"
+27-->D:\MyData\nativescript\nativescript-https\demo\platforms\android\app\src\main\AndroidManifest.xml:25:3-35
+28        android:theme="@style/AppTheme"
+28-->D:\MyData\nativescript\nativescript-https\demo\platforms\android\app\src\main\AndroidManifest.xml:26:3-34
+29        android:usesCleartextTraffic="true" >
+29-->[:nativescript_unit_test_runner:] C:\Users\supun\.gradle\caches\transforms-2\files-2.1\b739651180c6fea3601a071f88e1359d\nativescript_unit_test_runner\AndroidManifest.xml:11:18-53
+30        <activity
+30-->D:\MyData\nativescript\nativescript-https\demo\platforms\android\app\src\main\AndroidManifest.xml:28:3-40:14
+31            android:name="com.tns.NativeScriptActivity"
+31-->D:\MyData\nativescript\nativescript-https\demo\platforms\android\app\src\main\AndroidManifest.xml:29:4-47
+32            android:configChanges="keyboardHidden|orientation|screenSize"
+32-->D:\MyData\nativescript\nativescript-https\demo\platforms\android\app\src\main\AndroidManifest.xml:31:4-65
+33            android:label="@string/title_activity_kimera"
+33-->D:\MyData\nativescript\nativescript-https\demo\platforms\android\app\src\main\AndroidManifest.xml:30:4-49
+34            android:theme="@style/LaunchScreenTheme" >
+34-->D:\MyData\nativescript\nativescript-https\demo\platforms\android\app\src\main\AndroidManifest.xml:32:4-44
+35            <meta-data
+35-->D:\MyData\nativescript\nativescript-https\demo\platforms\android\app\src\main\AndroidManifest.xml:34:4-87
+36                android:name="SET_THEME_ON_LAUNCH"
+36-->D:\MyData\nativescript\nativescript-https\demo\platforms\android\app\src\main\AndroidManifest.xml:34:15-49
+37                android:resource="@style/AppTheme" />
+37-->D:\MyData\nativescript\nativescript-https\demo\platforms\android\app\src\main\AndroidManifest.xml:34:50-84
+38
+39            <intent-filter>
+39-->D:\MyData\nativescript\nativescript-https\demo\platforms\android\app\src\main\AndroidManifest.xml:36:4-39:20
+40                <action android:name="android.intent.action.MAIN" />
+40-->D:\MyData\nativescript\nativescript-https\demo\platforms\android\app\src\main\AndroidManifest.xml:37:5-57
+40-->D:\MyData\nativescript\nativescript-https\demo\platforms\android\app\src\main\AndroidManifest.xml:37:13-54
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->D:\MyData\nativescript\nativescript-https\demo\platforms\android\app\src\main\AndroidManifest.xml:38:5-65
+42-->D:\MyData\nativescript\nativescript-https\demo\platforms\android\app\src\main\AndroidManifest.xml:38:15-62
+43            </intent-filter>
+44        </activity>
+45        <activity android:name="com.tns.ErrorReportActivity" />
+45-->D:\MyData\nativescript\nativescript-https\demo\platforms\android\app\src\main\AndroidManifest.xml:41:3-57
+45-->D:\MyData\nativescript\nativescript-https\demo\platforms\android\app\src\main\AndroidManifest.xml:41:13-55
+46    </application>
+47
+48</manifest>

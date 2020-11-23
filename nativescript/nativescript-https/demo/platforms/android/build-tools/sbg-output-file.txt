@@ -1,0 +1,1 @@
+D:\MyData\nativescript\nativescript-https\demo\platforms\android\app/src/main/java

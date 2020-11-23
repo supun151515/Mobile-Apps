@@ -1,0 +1,13 @@
+{
+	"nativescript-https": {
+		"D:\\MyData\\nativescript\\nativescript-https\\demo\\node_modules\\nativescript-https\\platforms\\android\\include.gradle": "243e80073d23adfa039fa740f85b8a9e97b93c73",
+		"D:\\MyData\\nativescript\\nativescript-https\\demo\\node_modules\\nativescript-https\\platforms\\android\\typings\\android-declarations.d.ts": "bf9975c45ab778df1f05a7c6b12a5734eeb06cf1",
+		"D:\\MyData\\nativescript\\nativescript-https\\demo\\node_modules\\nativescript-https\\platforms\\android\\typings\\okhttp3.d.ts": "d1b716cc78557c3694e1336c7ad8d0f991880363"
+	},
+	"nativescript-unit-test-runner": {
+		"D:\\MyData\\nativescript\\nativescript-https\\demo\\node_modules\\nativescript-unit-test-runner\\platforms\\android\\nativescript_unit_test_runner.aar": "c2e2783a09ca8bb92ccebe6825948f2269d12d6e"
+	},
+	"tns-core-modules-widgets": {
+		"D:\\MyData\\nativescript\\nativescript-https\\demo\\node_modules\\tns-core-modules-widgets\\platforms\\android\\widgets-release.aar": "0ff68ea2dea492d8ca6c2803f5700f1872126431"
+	}
+}
