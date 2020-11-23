@@ -1,0 +1,8 @@
+{
+  "name": "mango",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}
