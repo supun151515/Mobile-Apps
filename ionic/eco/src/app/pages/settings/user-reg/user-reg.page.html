@@ -1,0 +1,114 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+          <ion-title>
+            User Registration
+          </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col size-md="6" offset-md="3" size-lg="6" offset-lg="3" size-sm="8" offset-sm="2" size-xs="12" offset-xs="0">
+
+      <ion-item color="light" class="dropdown">
+        <ion-label position="floating">Search user</ion-label>
+        <ionic-selectable [(ngModel)]="selectedUser" [isMultiple]="false" itemValueField="id" itemTextField="username" [items]="users" [canSearch]="true" (onChange)="userSearch($event)">
+        </ionic-selectable>
+      </ion-item>
+  <br>
+  <br>
+      <ion-item>
+        <ion-label position="stacked">User Type</ion-label>
+          <ion-select interface="popover" placeholder="" [(ngModel)]="postData.user_type" (ionChange)="userSelect($event)">
+            <ion-select-option value="1">Admin User</ion-select-option>
+            <ion-select-option value="2">Agent User</ion-select-option>
+            <ion-select-option value="3">Client User</ion-select-option>
+          </ion-select>
+      </ion-item> 
+     
+      <div *ngIf="postData.user_type == '2'">
+      <ion-item>
+        <ion-label position="floating">Agent Name</ion-label>
+        <ionic-selectable [(ngModel)]="selectedAgent" [isMultiple]="false" itemValueField="id" itemTextField="agent_name" [items]="agents" [canSearch]="true" (onChange)="agentSelect($event)">
+        </ionic-selectable>
+      </ion-item>
+      <ion-item class="disabled" color="secondary">
+        <ion-label position="floating" color="dark">Region</ion-label>
+        <ion-input type="text" readonly [(ngModel)]="postData.region" color="dark"></ion-input>
+      </ion-item>
+        <ion-item class="disabled" color="secondary">
+        <ion-label position="floating" color="dark">Address</ion-label>
+        <ion-textarea rows="3" readonly [(ngModel)]="postData.address" color="dark"></ion-textarea>
+      </ion-item>
+    </div>
+    <div *ngIf="postData.user_type == '3'">
+      <ion-item>
+        <ion-label position="floating">Client Name</ion-label>
+        <ionic-selectable [(ngModel)]="selectedClient" [isMultiple]="false" itemValueField="id" itemTextField="client_name" [items]="clients" [canSearch]="true" (onChange)="clientSelect($event)">
+        </ionic-selectable>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Region</ion-label>
+        <ion-input type="text" readonly [(ngModel)]="postData.region"></ion-input>
+      </ion-item>
+        <ion-item>
+        <ion-label position="floating">Address</ion-label>
+        <ion-textarea readonly [(ngModel)]="postData.address"></ion-textarea>
+      </ion-item>
+    </div>
+
+    <ion-item>
+      <ion-label position="floating">Full name</ion-label>
+      <ion-input type="text" [(ngModel)]="postData.full_name"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Username</ion-label>
+      <ion-input type="text" [(ngModel)]="postData.username"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Email</ion-label>
+      <ion-input type="text" [(ngModel)]="postData.email"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Password</ion-label>
+      <ion-input type="password" [(ngModel)]="postData.password"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Confirm password</ion-label>
+      <ion-input type="password" [(ngModel)]="postData.confirm"></ion-input>
+    </ion-item>
+    <ion-item lines="none" class="ion-no-padding">
+      <ion-checkbox slot="start" [(ngModel)]="postData.changePass"></ion-checkbox>
+      <ion-label class="ion-text-wrap">User must change the password at next login</ion-label>
+    </ion-item>
+    <ion-item lines="none" class="ion-no-padding">
+      <ion-checkbox slot="start" [(ngModel)]="postData.suspend"></ion-checkbox>
+      <ion-label class="ion-text-wrap">Suspend this user</ion-label>
+    </ion-item>
+    <ion-item lines="none">
+      <ion-button (click)="addNew()">
+        <ion-icon name="person-add" slot="start"></ion-icon>
+        Add New</ion-button>
+      <ion-button (click)="update()">
+        <ion-icon name="create" slot="start"></ion-icon>
+        Update</ion-button>
+    </ion-item>
+    <ion-item lines="none">
+      <ion-button (click)="clearUserTypes()">
+        <ion-icon name="refresh" slot="start"></ion-icon>
+        Clear</ion-button>
+        <ion-button (click)="delete()" color="danger">
+          <ion-icon name="trash" slot="start"></ion-icon>
+          Delete</ion-button>
+      </ion-item>
+
+  </ion-col>
+  </ion-row>
+  </ion-grid>
+</ion-content>

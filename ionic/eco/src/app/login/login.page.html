@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title class="ion-text-center">Login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col size-md="6" offset-md="3" size-lg="4" offset-lg="4" size-sm="6" offset-sm="3" size-xs="12" offset-xs="0">
+            <ion-item>
+              <ion-label position="floating">Username</ion-label>
+              <ion-input type="text" [(ngModel)]="postData.username" #username></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label position="floating">Password</ion-label>
+              <ion-input type="password" [(ngModel)]="postData.password" #password></ion-input>
+            </ion-item>
+          <div class="ion-padding">
+              <ion-button fill="outline" color="primary" (click)="loginAction()">
+                <ion-icon name="unlock"></ion-icon>
+                Login</ion-button>
+              </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-title size="small" class="ion-text-center footer">Copyright © 1999-{{mydate}} Extreme IT Solutions. All rights reserved ®</ion-title>
+  </ion-toolbar>
+</ion-footer>

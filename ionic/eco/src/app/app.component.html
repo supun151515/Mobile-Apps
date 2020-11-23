@@ -1,0 +1,68 @@
+<ion-app>
+  <ion-split-pane contentId="main-content">
+    <ion-menu contentId="main-content" type="overlay">
+      <ion-header>
+        <ion-toolbar>
+          <ion-buttons slot="start">
+            <ion-menu-button></ion-menu-button>
+          </ion-buttons>
+          <ion-title>Menu</ion-title>
+        </ion-toolbar>
+      </ion-header>
+      <ion-content>
+      <div *ngFor="let p of appPages">
+        <ion-menu-toggle *ngIf="p.url && p.access == '1'" auto-hide="false">
+          <ion-item [routerLink]="p.url" routerDirection="root" routerLinkActive="active" detail="false">
+            <ion-icon [name]="p.icon" slot="start"></ion-icon>
+            <ion-label>
+              {{ p.title }}
+            </ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+
+        <ion-item button *ngIf="p.subPages?.length > 0" (click)="p.open = !p.open" 
+          [class.active-parent]="p.open" detail="false">
+          <ion-icon slot="start" [name]="p.icon" *ngIf="!p.open"></ion-icon>
+          <ion-icon slot="start" [name]="p.icon" *ngIf="p.open"></ion-icon>
+          <ion-icon slot="end" name="arrow-forward" *ngIf="!p.open"></ion-icon>
+          <ion-icon slot="end" name="arrow-down" *ngIf="p.open"></ion-icon>
+          <ion-label>
+            {{ p.title }}
+          </ion-label>
+        </ion-item>
+              <ion-list *ngIf="p.open" class="ion-list-margin">
+                <div *ngFor="let sub of p.subPages">
+                <ion-menu-toggle auto-hide="false" *ngIf="sub.access == '1'">
+                  <ion-item class="sub-item" [routerLink]="sub.url" 
+                  routerDirection="root" routerLinkActive="active" detail="false">
+                    <ion-icon [name]="sub.icon" slot="start"></ion-icon>
+                    <ion-label>
+                      {{ sub.title }}
+                    </ion-label>
+                  </ion-item>
+                </ion-menu-toggle>
+                </div>
+              </ion-list>
+      </div>
+      </ion-content>
+      <ion-footer>
+        <div align="center" class="background">
+        <ion-avatar>
+          <img src="https://api.time.com/wp-content/uploads/2018/12/square-meghan-markle-person-of-the-year-2018.jpg?quality=85">
+        </ion-avatar>
+        <ion-item>
+            <ion-label class="ion-text-center">
+             <h2>{{fullName}}</h2>
+              <h3>{{region}} <b>({{userText}})</b></h3>
+              <p>{{mobile1}} {{mobile2}}</p>
+              <p>{{email}}</p>
+            </ion-label>
+        </ion-item>
+        <ion-button nav-clear (click)="logout()" style="text-transform:none; text-align: center" expand="full" color="dark">Logout</ion-button>
+      </div>
+      </ion-footer>
+    </ion-menu>
+    <ion-router-outlet id="main-content"></ion-router-outlet>
+  </ion-split-pane>
+  
+</ion-app>

@@ -1,0 +1,17 @@
+ion-card {
+    width:100%;
+    margin: 0 !important;
+    padding: 0 !important;
+    }
+
+.dropdown {
+    color: grayscale($color: gray);
+    }
+.disabled {
+    color: gray;
+    background-color: lightseagreen;
+}
+.small {
+    font-size: 12px;
+    text-align: left;
+}

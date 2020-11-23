@@ -1,0 +1,55 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title class="ion-text-left">Clients Registry</ion-title>
+  </ion-toolbar>
+  <ion-fab *ngIf="this.access == '1'" vertical="top" horizontal="end" slot="fixed">
+    <ion-fab-button (click)="addNewItem()">
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+</ion-header>
+
+<ion-content>
+  <ion-grid class="ion-no-padding">
+  <ion-row>
+  <ion-col class="ion-no-padding" size-md="6" offset-md="3" size-lg="6" offset-lg="3" size-sm="8" offset-sm="2" size-xs="12" offset-xs="0">
+  <ion-refresher slot="fixed" (ionRefresh)="doRefresh($event)">
+    <ion-refresher-content pullingIcon="arrow-dropdown"
+     refreshingSpinner="circles" refreshingText="Refreshing..."></ion-refresher-content>
+  </ion-refresher>
+
+ <ion-list>
+  <ion-searchbar [(ngModel)]="searchTerm" (ionChange)="setFilteredItems()"></ion-searchbar>
+  <div *ngFor="let master of informationSearch">
+    <ion-item-group>
+      <ion-item-divider *ngIf="admin == '1'">
+        <ion-label>{{ master.key }}</ion-label>
+      </ion-item-divider>
+  <ion-item *ngFor="let sub of master.value">
+    <ion-avatar>
+      <img src="https://api.time.com/wp-content/uploads/2018/12/square-meghan-markle-person-of-the-year-2018.jpg?quality=85">
+    </ion-avatar>
+     <ion-label class="ion-text-wrap">
+      <h2> {{ sub.client_name}} </h2>
+      <h3> {{ sub.address }} </h3>
+      <h3> {{ sub.region }} </h3>
+      <p><a fill="clear" size="small" class="ion-no-padding" (click)="Dialer(sub.mobile1)">{{ sub.mobile1 }}</a> &nbsp;&nbsp; 
+        <a fill="clear" size="small" class="ion-no-padding" (click)="Dialer(sub.mobile2)">{{ sub.mobile2 }}</a></p>
+      <p> {{sub.email }} </p>
+     </ion-label>
+     <p>{{ sub.commission }}</p>
+     <ion-button (click)="userDetails(sub)">Details</ion-button>
+   </ion-item>
+   <br>
+  </ion-item-group>
+  </div> 
+ </ion-list>
+ </ion-col>
+ </ion-row>
+ </ion-grid>
+
+ 
+</ion-content>
